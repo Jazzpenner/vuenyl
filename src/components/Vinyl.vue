@@ -1,7 +1,6 @@
 <template>
   <div class="svg-spacing">
-    <svg id="profile" :width="width" :height="height"
-    >
+    <svg id="profile" :width="width" :height="height">
       <defs>
         <filter id="shadow" filterUnits="userSpaceOnUse">
           <feOffset result="offOut" in="SourceAlpha" :dx="shadowOffset" :dy="shadowOffset"/>
